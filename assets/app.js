@@ -2,5 +2,10 @@
 
 // toggle classes/data-attributes, especially for fading and hiding
 
+function imageClick(){
 
-
+}
+$('img').click(function() {
+    $('this').attr('id')
+    console.log($('this'))
+});

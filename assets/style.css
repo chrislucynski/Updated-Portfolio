@@ -1,10 +1,20 @@
 /* figure out images sizing */
 /* hover effects */
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 
 .screen-shots {
-    width: 100%;
-    height: auto;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    bottom: 75%;
+    left: 50%;
 }
 
 
